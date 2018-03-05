@@ -11,6 +11,6 @@ The docker image can be found here: https://hub.docker.com/r/allthingscloud/rpi3
 
 To build the dockerfile on a raspberry pi 3 : docker image build --tag allthingscloud/rpi3-node-iot-led -f Dockerfile .
 
-Launch as follows: docker container run -d --name my-node-iot-demo --device /dev/mem --device /dev/gpiomem allthingscloud/rpi3-node-iot-led
+Launch as follows: docker container run -d --name my-node-iot-demo --privileged allthingscloud/rpi3-node-iot-led
 
 Similiar golang and python docker images can be found in my github repos - https://github.com/allthingsclowd
