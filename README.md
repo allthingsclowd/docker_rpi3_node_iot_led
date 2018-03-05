@@ -1,12 +1,14 @@
 # Raspberry Pi 3 IoT Demo using Docker &amp; NodeJS to trigger an LED
 
-Dockerfile can be used to build IOT demo container that runs a NodeJS application that will work with the GPIO pins configured to match the following setup :
+The Dockerfile in the repository can be used to build an IoT demo container that runs a NodeJS application that will work with the GPIO pins configured to match the following setup :
 
 ![rpi3-led_bb](https://user-images.githubusercontent.com/9472095/36993912-600b37ba-20a7-11e8-853b-b725fee25233.png)
 
 ![rpi3-led_schem](https://user-images.githubusercontent.com/9472095/36993928-6b45df4a-20a7-11e8-9e82-a22889daa803.png)
 
 The docker image can be found here: https://hub.docker.com/r/allthingscloud/rpi3-node-iot-led/
+
+Demo application thanks to - https://www.w3schools.com/nodejs/nodejs_raspberrypi_blinking_led.asp
 
 To build the dockerfile on a raspberry pi 3 after cloning this repository: 
 ```bash
