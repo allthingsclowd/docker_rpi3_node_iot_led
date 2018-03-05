@@ -1,5 +1,5 @@
 # docker_rpi3_node_iot_led
-Raspberry Pi 3 IOT Demo using Docker &amp; NodeJS to trigger an LED
+Raspberry Pi 3 IoT Demo using Docker &amp; NodeJS to trigger an LED
 
 Dockerfile can be used to build IOT demo container that runs a NodeJS application that will work with the GPIO pins configured to match the following setup :
 
