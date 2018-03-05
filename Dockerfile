@@ -6,4 +6,4 @@ git clone https://github.com/allthingsclowd/docker_rpi3_node_iot_led.git
 
 WORKDIR /docker_rpi3_node_iot_led
 
-CMD ["node blink.js"]
+CMD node blink.js
