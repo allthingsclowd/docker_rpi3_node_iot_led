@@ -8,7 +8,7 @@ Dockerfile can be used to build IOT demo container that runs a NodeJS applicatio
 
 The docker image can be found here: https://hub.docker.com/r/allthingscloud/rpi3-node-iot-led/
 
-To build the dockerfile on a raspberry pi 3 : 
+To build the dockerfile on a raspberry pi 3 after cloning this repository: 
 ```bash
 docker image build --tag allthingscloud/rpi3-node-iot-led -f Dockerfile . 
 ```
